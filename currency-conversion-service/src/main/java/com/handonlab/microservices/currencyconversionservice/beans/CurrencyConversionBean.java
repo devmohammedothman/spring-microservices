@@ -17,7 +17,7 @@ public class CurrencyConversionBean {
 	
 	private String  to;
 	
-	private BigDecimal exchangeValue;
+	private BigDecimal exchangeRate;
 	
 	private BigDecimal amount;
 
@@ -35,12 +35,12 @@ public class CurrencyConversionBean {
 	 * @param exchangeValue
 	 * @param amount
 	 */
-	public CurrencyConversionBean(Long id, String from, String to, BigDecimal exchangeValue, BigDecimal amount) {
+	public CurrencyConversionBean(Long id, String from, String to, BigDecimal exchangeRate, BigDecimal amount) {
 		super();
 		this.id = id;
 		this.from = from;
 		this.to = to;
-		this.exchangeValue = exchangeValue;
+		this.exchangeRate = exchangeRate;
 		this.amount = amount;
 	}
 
@@ -87,20 +87,6 @@ public class CurrencyConversionBean {
 	}
 
 	/**
-	 * @return the exchangeValue
-	 */
-	public BigDecimal getExchangeValue() {
-		return exchangeValue;
-	}
-
-	/**
-	 * @param exchangeValue the exchangeValue to set
-	 */
-	public void setExchangeValue(BigDecimal exchangeValue) {
-		this.exchangeValue = exchangeValue;
-	}
-
-	/**
 	 * @return the amount
 	 */
 	public BigDecimal getAmount() {
@@ -112,6 +98,20 @@ public class CurrencyConversionBean {
 	 */
 	public void setAmount(BigDecimal amount) {
 		this.amount = amount;
+	}
+
+	/**
+	 * @return the exchangeRate
+	 */
+	public BigDecimal getExchangeRate() {
+		return exchangeRate;
+	}
+
+	/**
+	 * @param exchangeRate the exchangeRate to set
+	 */
+	public void setExchangeRate(BigDecimal exchangeRate) {
+		this.exchangeRate = exchangeRate;
 	}	
 
 }
