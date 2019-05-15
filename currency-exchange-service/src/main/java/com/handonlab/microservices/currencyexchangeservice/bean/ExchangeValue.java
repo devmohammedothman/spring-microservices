@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.handonlab.microservices.currencyexchangeservice.restcontroller.bean;
+package com.handonlab.microservices.currencyexchangeservice.bean;
 
 import java.math.BigDecimal;
 

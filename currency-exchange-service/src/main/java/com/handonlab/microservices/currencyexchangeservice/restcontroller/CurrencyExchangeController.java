@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.handonlab.microservices.currencyexchangeservice.bean.ExchangeValue;
 import com.handonlab.microservices.currencyexchangeservice.dao.ExchangeValueDao;
-import com.handonlab.microservices.currencyexchangeservice.restcontroller.bean.ExchangeValue;
 
 /**
  * @author M.Othman

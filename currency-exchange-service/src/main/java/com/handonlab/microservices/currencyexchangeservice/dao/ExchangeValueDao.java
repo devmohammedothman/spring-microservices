@@ -5,7 +5,7 @@ package com.handonlab.microservices.currencyexchangeservice.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.handonlab.microservices.currencyexchangeservice.restcontroller.bean.ExchangeValue;
+import com.handonlab.microservices.currencyexchangeservice.bean.ExchangeValue;
 
 /**
  * @author M.Othman
