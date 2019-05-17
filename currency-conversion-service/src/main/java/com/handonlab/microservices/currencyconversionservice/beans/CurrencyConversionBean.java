@@ -20,6 +20,8 @@ public class CurrencyConversionBean {
 	private BigDecimal exchangeRate;
 	
 	private BigDecimal amount;
+	
+	private int port;
 
 	/**
 	 * 
@@ -112,6 +114,20 @@ public class CurrencyConversionBean {
 	 */
 	public void setExchangeRate(BigDecimal exchangeRate) {
 		this.exchangeRate = exchangeRate;
+	}
+
+	/**
+	 * @return the port
+	 */
+	public int getPort() {
+		return port;
+	}
+
+	/**
+	 * @param port the port to set
+	 */
+	public void setPort(int port) {
+		this.port = port;
 	}	
 
 }
